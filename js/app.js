@@ -78,13 +78,13 @@
 // 8. Faqat 3 harfli so‘zlarni qoldiring
 // 1. filter() yordamida uzunligi 3 ga teng so‘zlarni ajrating.
 
-function threeLetterWords(words) {
-  let lengthWords = words.filter((words) => {
-    return words.length === 3; 
-  }) 
-  return lengthWords
-}
-console.log(threeLetterWords(["sal", "olma", "kor", "bor"])); // ["sal", "ko‘r", "bor"]
+// function threeLetterWords(words) {
+//   let lengthWords = words.filter((words) => {
+//     return words.length === 3; 
+//   }) 
+//   return lengthWords
+// }
+// console.log(threeLetterWords(["sal", "olma", "kor", "bor"])); // ["sal", "ko‘r", "bor"]
 
 // 9. Massivdagi sonlarni 2 ga ko‘paytiring
   // 1. map() yordamida har bir elementni 2 ga ko‘paytiring.
